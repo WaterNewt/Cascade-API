@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haarcascades</title>
+</head>
+<body>
+<ul>
+    {%for haarcascade in haarcascades%}
+    <li><a href="/{{haarcascades[haarcascade]}}">{{haarcascade}}</a></li>
+    {%endfor%}
+</ul>
+</body>
+</html>
